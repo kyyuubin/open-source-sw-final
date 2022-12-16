@@ -1,6 +1,12 @@
 # open-source-sw-final
-This is a **support vector machine(svm)** model in Python that classifies *brain tumors*. 
+This is a **support vector machine(svm)** model in Python that classifies **brain tumors**. 
 The classifier is an object of the SVC class which was imported from sklearn.svm library.
+
++ The parameters I set
+  + C = 2
+  + kernel = 'rbf'
+  + gamma = 0.02
+  + Use the default values for the rest
 
 + The packages I used
   + os
