@@ -5,13 +5,22 @@ The classifier is an object of the SVC class which was imported from sklearn.svm
 ### The licence
 ![MIT](https://img.shields.io/github/license/kyyuubin/open-source-sw-final)
 
-+ The parameters I set
+## Installing / Getting started
+We need *Jupyter Notebook*
+
+
+scikit-learn, scikit-image are needed. If those packages are missed, then, install them by using the following command.
+
+```pip install scikit-learn scikit-image
+
+```
+### The parameters I set
   + C = 2
   + kernel = 'rbf'
   + gamma = 0.02
   + Use the default values for the rest
 
-+ The packages I used
+### The packages I used
   + os
   + sklearn.datasets
   + sklearn.linear_model
